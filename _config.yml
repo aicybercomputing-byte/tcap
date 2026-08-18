@@ -1,6 +1,14 @@
 title: tCAP
 description: Bellini College Jobs & Career Outlook
 
+# jekyll-github-metadata (pulled in by the github-pages gem, and needed by
+# jekyll-feed to build feed.xml) can't infer the owner/repo from a plain
+# actions/checkout on a generic Actions runner the way it can on GitHub's
+# own Pages build infra. Setting it explicitly avoids:
+#   "No repo name found. Specify using PAGES_REPO_NWO ... or 'repository'
+#   in your configuration ..."
+repository: aicybercomputing-byte/tcap
+
 # `baseurl` is intentionally left unset here. The Pages workflow
 # (.github/workflows/jekyll.yml) already passes it at build time via
 # `--baseurl "${{ steps.pages.outputs.base_path }}"`, which resolves to
