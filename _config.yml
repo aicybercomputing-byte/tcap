@@ -1,0 +1,10 @@
+title: tCAP
+description: Bellini College Jobs & Career Outlook
+
+# `baseurl` is intentionally left unset here. The Pages workflow
+# (.github/workflows/jekyll.yml) already passes it at build time via
+# `--baseurl "${{ steps.pages.outputs.base_path }}"`, which resolves to
+# "/tcap" for a project site at this repo's default settings. A
+# command-line --baseurl flag overrides whatever is in this file anyway,
+# so setting it here too would be redundant at best and a stale-value
+# trap (e.g. after a repo rename) at worst.
